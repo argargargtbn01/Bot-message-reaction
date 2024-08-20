@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "8b1a806b-a39f-4aee-bfb2-707afc66bfb4",
+  "packageName": "Test Bot VpBank Ask",
+  "developer": {
+    "name": "Test Bot VpBank Ask",
+    "websiteUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://www.teams.com/privacy",
+    "termsOfUseUrl": "https://www.teams.com/termsofuser"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Test Bot VpBank Ask",
+    "full": "Test Bot VpBank Ask"
+  },
+  "description": {
+    "short": "Test Bot VpBank Ask",
+    "full": "Test Bot VpBank Ask"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "8b1a806b-a39f-4aee-bfb2-707afc66bfb4",
+      "scopes": [
+        "groupchat",
+        "team",
+        "personal"
+      ],
+      "isNotificationOnly": false,
+      "supportsCalling": false,
+      "supportsVideo": false,
+      "supportsFiles": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "*.ngrok-free.app",
+    "${{BOT_DOMAIN}}"
+  ]
+}
